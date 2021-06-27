@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/root.css">
+    <link rel="icon" href="icon.png" sizes="32x32" type="image/png">
+    
+    <title>Login</title>
+</head>
+<body>
+  <div class="container">
+
+    <div class="personagem">
+      <svg id="ilustração" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="392.3" height="635" viewBox="0 0 392.3 635">
+          <defs>
+
+            <style>
+              .cls-1 {
+                fill: #fff;
+              }
+        
+              .cls-2 {
+                fill: #c4c4c4;
+              }
+        
+              .cls-3 {
+                fill: #8ca597;
+              }
+        
+              .cls-4 {
+                fill: #848484;
+              }
+        
+              .cls-5 {
+                fill: #636363;
+              }
+        
+              .cls-6 {
+                fill: #3d3d3d;
+              }
+        
+              .cls-7 {
+                fill: #36c;
+              }
+        
+              .cls-8 {
+                fill: #1b365b;
+              }
+        
+              .cls-19, .cls-9 {
+                fill: #009bd8;
+              }
+        
+              .cls-10 {
+                fill: #5289e2;
+              }
+        
+              .cls-10, .cls-11, .cls-18, .cls-19 {
+                stroke: #1b365b;
+                stroke-miterlimit: 10;
+              }
+        
+              .cls-10, .cls-18, .cls-19 {
+                stroke-width: 3px;
+              }
+        
+              .cls-11, .cls-18 {
+                fill: none;
+              }
+        
+              .cls-12 {
+                fill: #d1ae8b;
+              }
+        
+              .cls-13 {
+                fill: #434454;
+              }
+        
+              .cls-14 {
+                fill: #155784;
+              }
+        
+              .cls-15 {
+                fill: #1f2630;
+              }
+        
+              .cls-16 {
+                fill: #fcbe22;
+              }
+        
+              .cls-17 {
+                fill: #0cf;
+              }
+        
+              .cls-20 {
+                fill: url(#Gradiente_sem_nome_2);
+              }
+            </style>
+
+            <radialGradient id="Gradiente_sem_nome_2" data-name="Gradiente sem nome 2" cx="506.42" cy="341.51" fx="461.48748133711695" r="411.57" gradientUnits="userSpaceOnUse">
+              <stop offset="0" stop-color="#fff"/>
+              <stop offset="0.28" stop-color="#f5f5f5" stop-opacity="0.66"/>
+              <stop offset="0.54" stop-color="#ededed" stop-opacity="0.38"/>
+              <stop offset="0.75" stop-color="#e7e7e7" stop-opacity="0.17"/>
+              <stop offset="0.91" stop-color="#e3e3e3" stop-opacity="0.05"/>
+              <stop offset="1" stop-color="#e2e2e2" stop-opacity="0"/>
+            </radialGradient>
+          </defs>
+          <title>personagem</title>
+          <g id="caixa">
+            <g>
+              <polygon class="cls-1" points="384 613.3 159 635 159 358 384 359 384 613.3"/>
+              <polygon class="cls-2" points="159 635 0 613.3 0 359 159 359 159 635"/>
+            </g>
+          </g>
+          <g id="grama">
+            <path class="cls-3" d="M203,644c24,10,31,53,31,53C221,699,203,644,203,644Z" transform="translate(-141 -67)"/>
+            <path class="cls-3" d="M238.4,635.9c14.4,21.6-3.8,61.2-3.8,61.2C222.7,691.6,238.4,635.9,238.4,635.9Z" transform="translate(-141 -67)"/>
+            <path class="cls-3" d="M533.1,635.1c3,25.8-31.2,52.8-31.2,52.8C493.8,677.6,533.1,635.1,533.1,635.1Z" transform="translate(-141 -67)"/>
+            <path class="cls-3" d="M485.7,660c9.1,7.5,6.3,27.1,6.3,27.1C486.1,686.3,485.7,660,485.7,660Z" transform="translate(-141 -67)"/>
+            <path class="cls-3" d="M176.7,662c9.1,7.5,6.3,27.1,6.3,27.1C177.1,688.3,176.7,662,176.7,662Z" transform="translate(-141 -67)"/>
+          </g>
+          <g id="pessonagem">
+            <g id="bracoEsq">
+              <g id="celular">
+                <g>
+                  <polygon class="cls-4" points="359.8 217.5 326.4 206 321.9 193.3 355.3 204.7 359.8 217.5"/>
+                  <polygon class="cls-5" points="266.1 249.1 270.9 262.1 326.7 206.3 321.9 193.3 266.1 249.1"/>
+                  <polygon class="cls-6" points="304 273.3 270.6 261.8 326.4 206 359.8 217.5 304 273.3"/>
+                </g>
+              </g>
+              <g>
+                <path class="cls-7" d="M458.8,319.7l-65,52c-7.9,6.4-8,19.3-.2,29h0c7.8,9.6,20.5,12.2,28.4,5.8l65-52Z" transform="translate(-141 -67)"/>
+                <polygon class="cls-8" points="288.8 276.1 301.7 265.6 312.3 281.1 288.8 276.1"/>
+              </g>
+              <g id="maoEsq">
+                <path class="cls-7" d="M492.3,350.3l-9,7.3a18.7,18.7,0,0,1-26.4-2.5L445,340.7a13.5,13.5,0,0,1,3.3-20.1l24.3-15.3,21.5,26.3A13.4,13.4,0,0,1,492.3,350.3Z" transform="translate(-141 -67)"/>
+                <path id="dedo_touch" data-name="dedo touch" class="cls-7" d="M460.3,315.6l4.7,15.1,15.6-15.4-10.1-13.6a3.4,3.4,0,0,0-4.8-.6l-1.7,1.5A11.9,11.9,0,0,0,460.3,315.6Z" transform="translate(-141 -67)"/>
+              </g>
+              <g id="ombroEsq">
+                <rect class="cls-9" x="325.7" y="277.8" width="69.7" height="44.83" transform="translate(142.7 696.1) rotate(-120.4)"/>
+                <path class="cls-7" d="M378.5,345.6h66.1a0,0,0,0,1,0,0v44.8a0,0,0,0,1,0,0H378.5A22.4,22.4,0,0,1,356.1,368v0A22.4,22.4,0,0,1,378.5,345.6Z" transform="translate(144.1 832.4) rotate(-120.4)"/>
+                <polygon class="cls-8" points="230.9 241.9 243.5 318 226.7 291.2 230.9 241.9"/>
+              </g>
+            </g>
+            <g id="header">
+              <path class="cls-7" d="M330,229.7l-59.4,7.8V157.4h63.7l-.5,67.9A4.4,4.4,0,0,1,330,229.7Z" transform="translate(-141 -67)"/>
+              <rect class="cls-7" x="129.6" y="153.3" width="45.4" height="73.44"/>
+              <circle class="cls-10" cx="193.1" cy="122.4" r="8.9"/>
+              <circle class="cls-10" cx="167.5" cy="122.4" r="8.9"/>
+              <path class="cls-8" d="M334.3,135.7H281a6.7,6.7,0,0,0-6.7,6.7v2.8a1.7,1.7,0,0,1-1.7,1.6h0a6.7,6.7,0,0,0-6.7,6.7v35h7.2v5.6a2.2,2.2,0,0,0,2.3,2.2h0a2.2,2.2,0,0,0,2.2-2.2v-5.6h0a4.4,4.4,0,0,0,4.4-4.4V168.8a11.5,11.5,0,0,1,11.5-11.4h40.8Z" transform="translate(-141 -67)"/>
+              <circle class="cls-8" cx="183.6" cy="68.4" r="16.4"/>
+              <circle class="cls-8" cx="194.5" cy="84.3" r="12.8"/>
+              <circle class="cls-8" cx="200.3" cy="72.9" r="7.5"/>
+              <circle class="cls-8" cx="164.4" cy="70.9" r="5"/>
+              <circle class="cls-8" cx="169.1" cy="84.5" r="15.3"/>
+              <path class="cls-7" d="M124.5,121.2h7.6a0,0,0,0,1,0,0v8.1a0,0,0,0,1,0,0h-7.6a4.1,4.1,0,0,1-4.1-4.1v0A4.1,4.1,0,0,1,124.5,121.2Z"/>
+              <polygon class="cls-8" points="174.9 164.4 160.2 166.6 175 178 174.9 164.4"/>
+              <line class="cls-11" x1="158.3" y1="121.5" x2="132.1" y2="121.5"/>
+              <path class="cls-11" d="M317.4,189.4c3.9-2.8,7.8,0,7.8,0" transform="translate(-141 -67)"/>
+            </g>
+            <g id="body">
+              <g id="peEsq">
+                <path class="cls-12" d="M489,558.1a7,7,0,0,0-.6-3.5,7.2,7.2,0,0,0-4-4.5l-1-.5-38.9-16.3-6.8,13.3a5.3,5.3,0,0,0,2.9,7.3l33.9,14.3h0A10.6,10.6,0,0,0,489,558.1Z" transform="translate(-141 -67)"/>
+                <path class="cls-13" d="M483.5,549.7l-7.7,15L442,550.3c-3-1.3-4.4-4.5-3.1-7.1l5.3-10.2Z" transform="translate(-141 -67)"/>
+                <polygon class="cls-12" points="325.1 480.6 327.8 481.8 330.3 477 327.6 475.9 325.1 480.6"/>
+                <ellipse class="cls-12" cx="306.9" cy="479.7" rx="2.9" ry="2.7"/>
+              </g>
+              <g id="canelaEsq">
+                <path class="cls-14" d="M406.7,461.7H525a8.8,8.8,0,0,1,8.8,8.8v0a8.8,8.8,0,0,1-8.8,8.8H406.7a2.1,2.1,0,0,1-2.1-2.1V463.8a2.1,2.1,0,0,1,2.1-2.1Z" transform="translate(-237.8 751.6) rotate(-76.7)"/>
+                <rect class="cls-14" x="442.3" y="527.5" width="25.2" height="8.39" rx="4.2" transform="translate(-86 -109.5) rotate(5.7)"/>
+                <rect class="cls-14" x="441.5" y="531.8" width="25.2" height="8.39" rx="4.2" transform="translate(77.8 -192.9) rotate(20.7)"/>
+              </g>
+              <g id="coxaESq">
+                <path class="cls-8" d="M408.3,407.5H363.9a2.2,2.2,0,0,0-2.1,2.1v13.5a2.2,2.2,0,0,0,2.1,2.1h31.8A23.5,23.5,0,0,1,408.3,407.5Z" transform="translate(-141 -67)"/>
+                <path class="cls-14" d="M482.3,407.5h-74a23.5,23.5,0,0,0-12.6,17.7h86.6a8.9,8.9,0,0,0,0-17.7Z" transform="translate(-141 -67)"/>
+              </g>
+              <g id="coluna">
+                <path class="cls-14" d="M362.8,427.2h-114c-10.3,0-18.7-7.1-18.7-15.9V380.5l132,8.9C368.7,401.1,362.8,427.2,362.8,427.2Z" transform="translate(-141 -67)"/>
+                <g>
+                  <path class="cls-15" d="M230.1,380.5l132-4.6a3.6,3.6,0,0,1,3.8,3.6l-.3,6.9c-.1,2-2,3.6-4.4,3.7C315.3,391.5,230.1,380.5,230.1,380.5Z" transform="translate(-141 -67)"/>
+                  <g>
+                    <rect class="cls-16" x="319.4" y="379.4" width="19.5" height="11.67" rx="3" transform="matrix(1, 0.03, -0.03, 1, -127.63, -78.03)"/>
+                    <g id="camisa">
+                      <path class="cls-9" d="M316,253.6V294l-18.4-40.4H239a14.9,14.9,0,0,0-14.8,14.9v46.3h0a5,5,0,0,0-5,5v50.1a10.6,10.6,0,0,0,10.6,10.6h123a21,21,0,0,0,21-21.1V286.8a33.2,33.2,0,0,0-33.2-33.2Z" transform="translate(-141 -67)"/>
+                      <path class="cls-8" d="M297.1,270.3h49a0,0,0,0,1,0,0v5.6a0,0,0,0,1,0,0H291.5a0,0,0,0,1,0,0v0A5.6,5.6,0,0,1,297.1,270.3Z" transform="translate(450.9 -112.6) rotate(90)"/>
+                      <path class="cls-17" d="M297.9,250.3l-.7-1.6a1.1,1.1,0,0,0-1-.6H262.5a2.9,2.9,0,0,0-2.9,2.9h0a2.9,2.9,0,0,0,2.9,2.9h31.1L316,300.4h5.5Z" transform="translate(-141 -67)"/>
+                    </g>
+                  </g>
+                </g>
+              </g>
+              <g id="canelaDi">
+                  <g id="peDi">
+                      <path class="cls-12" d="M414.4,571.8a7.4,7.4,0,0,0-1.9-6l-.7-.9-29.9-30.7-11.6,11.2a6,6,0,0,0-.2,8.5l26,26.9H396c3.7,3.9,9.6,3.7,13.8.4a13,13,0,0,0,3.8-5.6A8.4,8.4,0,0,0,414.4,571.8Z" transform="translate(-141 -67)"/>
+                      <path class="cls-13" d="M411.8,565.1l-13.9,13.3L372,551.5a5.9,5.9,0,0,1,.1-8.5l9.6-9.2Z" transform="translate(-141 -67)"/>
+                      <rect class="cls-12" x="393.6" y="550" width="3" height="10.06" transform="translate(393.7 -178.8) rotate(47.3)"/>
+                    </g>
+                <path class="cls-14" d="M320.7,465.2H439.1a8.8,8.8,0,0,1,8.8,8.8v0a8.8,8.8,0,0,1-8.8,8.8H320.7a2.1,2.1,0,0,1-2.1-2.1V467.3a2.1,2.1,0,0,1,2.1-2.1Z" transform="translate(-231.8 790.3) rotate(-90)"/>
+                <rect class="cls-14" x="230.1" y="466.6" width="25.2" height="8.39" rx="4.2"/>
+                <rect class="cls-14" x="371.1" y="537" width="25.2" height="8.39" rx="4.2" transform="translate(105.5 -174.9) rotate(23.4)"/>
+              </g>
+              <g id="coxaDI">
+                <path class="cls-14" d="M123.9,342.6H242.2a8.8,8.8,0,0,1,8.8,8.8v0a8.8,8.8,0,0,1-8.8,8.8H123.9a2.1,2.1,0,0,1-2.1-2.1V344.7a2.1,2.1,0,0,1,2.1-2.1Z"/>
+                <path class="cls-18" d="M285.1,403.5c8.7,0,8.8,3.6,9.2,6.3" transform="translate(-141 -67)"/>
+                <line class="cls-19" x1="224.2" y1="341.8" x2="147.8" y2="341.8"/>
+              </g>
+            </g>
+            <g id="bracoDi">
+              <g id="ombro_touch" data-name="ombro touch">
+                <path class="cls-7" d="M257.4,295.2h45.3a0,0,0,0,1,0,0V344a22.7,22.7,0,0,1-22.7,22.7h0A22.7,22.7,0,0,1,257.4,344V295.2a0,0,0,0,1,0,0Z" transform="translate(-256.3 86) rotate(-25.5)"/>
+                <path class="cls-19" d="M237.1,293.7l12.5,26h0c3.7-4.6,10.9-9.7,19.9-13.8s15-5.4,20.7-5.8h0l-12.4-25.8" transform="translate(-141 -67)"/>
+              </g>
+              <g id="braco_touch" data-name="braco touch">
+                <g>
+                  <path class="cls-7" d="M333.3,221.1h0A22.7,22.7,0,0,1,356,243.8V366.4a21.9,21.9,0,0,1-21.9,21.9h0a23.4,23.4,0,0,1-23.4-23.4V243.8A22.7,22.7,0,0,1,333.3,221.1Z" transform="translate(162.3 688.3) rotate(-128.6)"/>
+                  <line class="cls-18" x1="152.9" y1="240.1" x2="141.9" y2="249.2"/>
+                </g>
+                <polygon class="cls-8" points="231.2 198.3 239 229.5 254 217.2 231.2 198.3"/>
+              </g>
+              <g id="mao_touch" data-name="mao touch">
+                <path class="cls-7" d="M396.6,288.1l-36.9-9.3c-.1,0-.2-.2-.2-.3l5.9-23.2a15.7,15.7,0,0,1,19.2-11.5l37.1,9.3a4,4,0,0,1,2.2,6.3L404,285.8A7.4,7.4,0,0,1,396.6,288.1Z" transform="translate(-141 -67)"/>
+                <polygon class="cls-8" points="269.6 210 273.9 204.3 266.8 200 269.6 210"/>
+                <path id="dedo_touch-2" data-name="dedo touch" class="cls-7" d="M420.6,273.7l-14.5-6.1,16.7-14.1,12.6,11.3a3.4,3.4,0,0,1,.2,4.9l-1.6,1.6A11.9,11.9,0,0,1,420.6,273.7Z" transform="translate(-141 -67)"/>
+              </g>
+
+              
+            
+            </g>
+            <g id="luzCelular">
+              <path class="cls-20" d="M412,329,213,240S234,94,383,67L496,272l-33-12-56,56Z" transform="translate(-141 -67)"/>
+            </g>
+          </g>
+      </svg>
+    </div>
+
+    <div class="formulario">
+      <div class="header_form">
+        <h1>Login</h1>
+        <h2>Welcome back!</h2>
+      </div>
+      <div class="form">
+        <p>E-mail</p>
+        <input type="email" name="" id="">
+        <p>password</p>
+        <input type="password" name="" id="">
+
+
+        <button>Sign in</button>
+      </div>
+    </div>
+
+
+  </div>
+</body>
+
+
+
+</html>

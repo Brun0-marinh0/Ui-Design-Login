@@ -1,0 +1,175 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html, body{
+    height: 100%;
+}
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: #045de9;
+    background-image: linear-gradient(315deg, #045de9 0%, #09c6f9 74%);
+}
+svg{
+    width: 90%;
+    height: 70vh;
+}
+.container{
+    display: grid;
+    grid-template-columns: 60% 40%;
+    height: 80vh;
+    width: 70%;
+    border-radius: 2em;
+    overflow: hidden;
+
+    position: relative;
+    top: 50%;
+    left: 15%;
+    transform: translateY(-50%); 
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.personagem{
+    text-align: center;
+    background-color:#e2e2e2;
+    background-image: linear-gradient(0deg, #eeeeee 0%, #e2e2e2 30%);
+    overflow: hidden;
+}
+.formulario{
+    padding: 2em;
+    background-color: var(--white);
+
+    display: grid;
+    grid-template-rows:.3fr 1fr;
+    grid-gap:20px
+}
+input{
+    font-size: 1em;
+    padding: .5em 0 .5em 0;
+    width: 100%;
+    border: none;
+    border-bottom: 3px solid #36c;
+}
+.form p{
+    margin-top: 20px;
+}
+.header_form h2{
+    font-weight: 400;
+}
+
+button{
+    cursor: pointer;
+    margin-top: 20px;
+    font-weight: 500;
+    font-size: 1.1em;
+    border: none;
+    color: var(--white);
+    padding: .5em 1.5em;
+    border-radius: .3em;
+    background-color: #045de9;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+button:focus{
+    background-color: #004cc5;
+    box-shadow: none;
+}
+
+
+
+/*ANIMAÇÃO===========================================================   */
+#header{
+    animation: header 1s infinite cubic-bezier(0.63, 0.38, 0.07, 1.07) alternate;
+    transform-origin: bottom;
+    transform-box: fill-box;
+}
+@keyframes header{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(6deg);
+    }
+}
+
+#braco_touch{
+    animation: braço_dir .2s infinite linear alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes braço_dir{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(6deg);
+    }
+}
+
+#ombro_touch{
+    animation: ombro_dir .2s infinite linear alternate;
+    transform-origin: top;
+    transform-box: fill-box;
+}
+@keyframes ombro_dir{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(6deg);
+        
+    }
+}
+
+#mao_touch{
+    animation: mao_dir .2s infinite linear alternate;
+    transform-origin: center;
+    transform-box: fill-box;
+}
+@keyframes mao_dir{
+    from{
+        transform: translate(0px, 0px);
+    }
+    to{
+        transform: translate(5px, 14px);
+    }
+}
+
+#canelaDi{
+    animation: canela_dir 2s infinite cubic-bezier(0.23, 0.02, 0.74, 1.01) alternate;
+    transform-origin: inherit;
+    transform-box: fill-box;
+}
+@keyframes canela_dir{
+    from{
+        transform: rotateZ(0deg);
+    }
+    to{
+        transform: rotateZ(5deg);
+    }
+}
+
+#peDi{
+    animation: pe_dir 2s infinite ease-in-out alternate;
+    transform-origin: left;
+    transform-box: fill-box;
+}
+@keyframes pe_dir{
+    from{
+        transform: rotateZ(-10deg);
+    }
+    to{
+        transform: rotateZ(0deg);
+    }
+}
+
+#luzCelular{
+    animation: luz-celular 1s infinite cubic-bezier(0.99,-0.21, 0.29, 1.09) alternate;
+}
+@keyframes luz-celular{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}
